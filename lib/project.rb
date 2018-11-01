@@ -8,7 +8,8 @@ class Project
     @title = title
   end 
   
-   def add_backer
+   def add_backer (backer)
+     @@backers << backer
+   end 
+   
 end 
-
-Project - #add_backer accepts a Backer asan argument and stores it in a backers array
