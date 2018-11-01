@@ -8,3 +8,5 @@ class Project
   
    def add_backer 
 end 
+
+Project - #add_backer accepts a Backer asan argument and stores it in a backers array
